@@ -1,25 +1,5 @@
 local M = {}
 
-M.treesitter = {
-  ensure_installed = {
-    "tsx",
-    "toml",
-    "fish",
-    "json",
-    "css",
-    "html",
-    "lua",
-    "javascript",
-    "typescript",
-    "rust",
-    "markdown",
-    "markdown_inline"
-  },
-  context_commentstring = {
-    enable = true,
-  },
-}
-
 M.cmp = {
     mapping = {
     -- disable  tab
